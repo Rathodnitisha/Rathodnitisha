@@ -1,0 +1,804 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    display: inline;
+    margin: 20px;
+    margin-right:20px;
+}
+.navi{
+     display: flex;
+     justify-content: space-between;
+     background-color: #1ccacd;
+     padding: 25px;
+
+}
+
+ul,li,a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    top: 10px;
+}
+.navi>i{
+    color: white;
+    font-size: 26px;
+    margin-left:70px;
+}
+#home {
+    background-color: #1ccacd;
+}
+
+.main {
+    display: flex;
+    font-size:  25px;
+    color: white;
+    margin-left: 100px;
+    font-size: 1rem;
+    
+}
+.logo {
+    margin-left:460px;
+    margin-top: 80px;
+}
+.content>p {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+.content>h1{
+    font-size: 70px;
+    margin-top: 80px;
+    margin-left: 90px;
+
+
+}
+
+.download {
+    margin-top: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: #1ccacd;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    font-size:25px;
+}
+
+.github {
+    margin-top: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid white;
+    color: white margin-left: 100px;
+    font-size:25px;
+
+}
+
+.download:hover {
+    color: white;
+    background-color: red;
+}
+
+.github:hover {
+    background-color: red;
+}
+
+.A {
+    display: flex;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 700px;
+    color: darkolivegreen;
+}
+
+.n {
+    padding-left: 300px;
+    padding-right: 100px;
+    margin-top: 40px;
+}
+
+.n>.xyz{
+    font-size: 30px;
+    display: inline-flex;
+    height: 200px;
+    width: 300px;
+    /* flex-direction: column; */
+    background-color: red;
+    margin: 5px;
+    color: white;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.rrr {
+    margin-left: 460px;
+    margin-top: 100px;
+}
+
+.mca{
+    margin-left:660px;
+    margin-top: -80px;
+}
+
+.mca>h1{
+    font-size: 40px;
+    font-weight:300;
+
+}
+
+.mca>p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.nnn {
+    margin-left: 460px;
+    margin-top: 90px;
+}
+
+.rnd{
+    margin-left: 650px;
+    margin-top: -80px;
+}
+
+.rnd>h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.rnd>p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.bca {
+    margin-left: -160px;
+    margin-top: 110px;
+}
+
+.bca1 {
+    margin-left: 1px;
+    margin-top: -100px;
+}
+
+.bca1>h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.bca1>p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.abc {
+    margin-left: -200px;
+    margin-top: 110px;
+}
+
+.abc1 {
+    margin-left: 12px;
+    margin-top: -100px;
+}
+
+.abc1>h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.abc1>p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.second {
+    margin-left: -180px;
+    margin-top: 110px;
+}
+
+.second1 {
+    margin-left: 12px;
+    margin-top: -100px;
+}
+
+.second1>h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.second1>p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.top {
+    margin-left: -175px;
+    margin-top: 110px;
+}
+
+.top1 {
+    margin-left: 10px;
+    margin-top: -200px;
+}
+
+.top1>h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top:100px;
+}
+
+.top1>p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+.border{
+    border: #1ccacd;
+    font-size: 10px;
+    margin-left: -600px;
+    margin-top: 100px;
+    margin-left:-590px;
+}
+
+.border1{
+    border: #1ccacd;
+    font-size: 10px;
+    margin-left: -600px;
+    margin-top: 100px;
+    margin-left:-590px;
+}
+
+.four>h1{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left:-350px;
+    font-weight: 500px;
+    color: #31a3a5;
+    font-size: 30px;
+}
+
+.B2>p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left:-50px;
+}
+
+.number>p {
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 31px;
+    color: #1ccacd;
+}
+.chek{
+    margin-left: 152px;
+    margin-top: -26px;
+}
+#demos{
+    background-color: #1ccacd;
+}
+
+
+.lilo >h1{
+    font-size:2.9375rem;
+    background-color: rgb(248 248 248);
+    font-weight: -614px;
+    margin-top: 0px;
+    margin-left: 1px;
+}
+
+.lilo >p{
+       font-size:1.4375rem;
+       font-weight:300;
+       margin-top: 88px;
+       margin-left: 89px;
+}
+.row{
+    padding-left:126px;
+    padding-right: 100px;
+    margin-top:40px;
+    box-sizing: initial;
+}
+.row>.ai{
+    font-size: 20px;
+    display: inline-flex;
+    height: 125px;
+    width: 254px;
+    background-color: #eaeaea;
+    margin: 12px;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
+.ai:hover{
+    color: white;
+    background-color: #1ccacd;
+}
+.lets{
+    background: white;
+    font-size: 33px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.xyz>.box{
+      font-size: 29px
+      display: inline-flex;
+      height: 125px;
+      width: 261px;
+      background-color: white;
+      margin: 12px;
+      color: black;
+      justify-content:center;
+      align-items: center;
+    }
+
+    .box:hover{
+        color: white;
+        background-color: #1ccacd;
+    }
+.tex >p{
+    font-size:33px;
+    margin-top: 81px;
+    margin-left: 63px;
+    margin-bottom: 51px;
+    color: black;
+    }
+    
+    .num>.ai{
+    font-size: 29px;
+    display: inline-flex;
+    height:130px;
+    width: 252px;
+    background-color: #eaeaea;
+    margin-left: 107px;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    }
+ .ai:hover{
+    color: white;
+    background-color: #1ccacd;
+ }
+.std >p {
+    font-size: 21px;
+    margin-top: 173px;
+    margin-left: 665px;
+    color: #1ccacd;
+}
+
+.big{
+    margin-left: 792px;
+    margin-top: -26px;
+}
+
+.pilo >h1{
+    font-size:35px;
+    background-color:  rgb(255, 255, 255);
+    font-weight: -614;
+    margin-top:16px;
+    margin-left: 86px;
+}
+
+.men >h1{
+    font-size:24px;
+    font-weight: -614;
+    margin-top:89px;
+    margin-left: 235px;
+}
+.naic >p{
+    font-size:21px;
+    font-weight: -614;
+    margin-top:23px;
+    margin-left: 311px;
+}
+.r >p{
+    font-size:21px;
+    font-weight: -614;
+    margin-top: 15px;
+    margin-left:293px;
+}
+.n >p{
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: -22px;
+    margin-left: 46px;
+}
+.d >h1{
+    font-size:24px;
+    font-weight: -614;
+    margin-top: 52px;
+    margin-left: 343px;
+}
+.b >p{
+    font-size:21px;
+    font-weight: -614;
+    margin-top: 26px;
+    margin-left: 326px;
+}
+.c >p{
+    font-size:21px;
+    font-weight: -614;
+    margin-top: 15px;
+    margin-left: 330px;
+}
+.e >p{
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 14px;
+    margin-left:331px;
+}
+.f >h1{
+    font-size:24px;
+    font-weight: -614;
+    margin-top:50px;
+    margin-left: 251px;
+}
+
+.g >p{
+    font-size:21px;
+    font-weight: -614;
+    margin-top: 26px;
+    margin-left:266px;
+}
+.h >p{
+    font-size:21px;
+    font-weight: -614;
+    margin-top: 15px;
+    margin-left: 293px;
+}
+.j >p{
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 14px;
+    margin-left: 296px;
+}
+.k >p{
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 14px;
+    margin-left: 280px
+}
+.l >h1{
+    font-size: 24px;
+    font-weight: -614;
+    margin-top:43px;
+    margin-left: 300px;
+}
+.m >p{
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 14px;
+    margin-left: 284px;
+}
+.o >p{
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 14px;
+    margin-left: 292px;
+}
+.q >p{
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 14px;
+    margin-left:316px;
+}
+.x >h1{
+    font-size: 24px;
+    font-weight: -614;
+    margin-top:-787px;
+    margin-left: 477px;
+}
+.z >p{
+    font-size: 18px;
+    font-weight: -614;
+    margin-top: 59px;
+    margin-left: 511px;
+}
+.fig >hr{
+    background-color: #1ccacd;
+    height:70px;
+    width: 7px;
+    font-size: 76px;
+    font-weight:-645;
+    margin-top:-65px;
+    margin-left: 475px;
+}
+.bo >p{
+    color #1ccacd;
+    height: 10px;
+    width: 10px;
+    font-size:  76px;
+    font-weight: -645;
+    margin-top: -65px;
+    margin-left: 475px;
+}
+.new >h1{
+    font-size: :26px;
+    font-weight:-614;
+    margin-top:44px;
+    margin-left:480px;
+}
+.disc >p{
+    color: black;
+    font-size:14px;
+    font-weight: -614;
+    margin-top: 4px;
+    margin-left: 495px;
+}
+.disc1 >p{
+    color: black;
+    font-size: 90px;
+    font-weight: -614;
+    margin-bottom: -131px;
+    margin-top: -86px;
+    margin-left: 471px;
+    border-top-width: -88px;
+}
+.li{
+    color:black;
+    font-size: 67px;
+    font-weight: -614;
+    margin-bottom:343px;
+    margin-top: -393px;
+    margin-left: 475px;
+}
+.net >p{
+    color:black;
+    font-size: 67px;
+    font-weight: -614;
+    margin-bottom:343px;
+    margin-top: -393px;
+    margin-left: 475px;
+}
+.xl >h1{
+    color: black;
+    font-size:38px;
+    font-weight: -614;
+    margin-top: 250px;
+    margin-left: 488px;
+}
+.wet >p{
+    color: black;
+    font-size:19px;
+    font-weight: -614;
+    margin-top: 45px;
+    margin-left: 478px;
+}
+.poi >p{
+    color: black;
+    font-size:19px;
+    font-weight: -614;
+    margin-top: 23px;
+    margin-left: 478px;
+}
+.nbv >p{
+    color: black;
+    font-size:17px;
+    font-weight: -614;
+    margin-top: 16px;
+    margin-left: 495px;
+}
+.vsc >p{
+    color: black;
+    font-size: 71px;
+    font-weight: -614;
+    margin-bottom: -117px;
+    margin-left: 474px;
+    margin-top: -74px;
+    border-top-width: 142px;
+}
+.jiv >h1{
+    color: black;
+    font-size: 35px;
+    font-weight: -614;
+    margin-top: 237px;
+    margin-left: 479px;
+}
+.yuo >p{
+    color: black;
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 34px;
+    margin-left: 478px;
+}
+.lup >p{
+    color:#1ccacd;
+    font-size: 21px;
+    font-weight: -614;
+    margin-top: 34px;
+    margin-left: 488px;
+}
+.mll >p{
+    color: black;
+    font-size: 80px;
+    font-weight: -614;
+    margin-top: -80px;
+    margin-left: 464px;
+} 
+.ree1 >p{
+    color: black;
+    font-size:21px;
+    font-weight: -614;
+    margin-top: 1px;
+    margin-left: 490px;
+}
+.ree >p{
+    color: black;
+    font-size:21px;
+    font-weight: -614;
+    margin-top: -37px;
+    margin-left: 668px;
+}
+.qp >p{
+    color:#1ccacd;
+    font-size:21px;
+    font-weight: -614;
+    margin-top:  10px;
+    margin-left: 487px;
+}
+.tii >p{
+    color: black;
+    font-size:80px;
+    font-weight: -614;
+    margin-top: -82px;
+    margin-left: 465px;
+}
+.new >p{
+    color: black;
+    font-size:21px;
+    font-weight: -614;
+    margin-top:  -36px;
+    margin-left: 731px;
+}
+.ni >p{
+    color:black;
+    font-size:42px;
+    font-weight: -614;
+    margin-top: 68px;
+    margin-left: 467px;
+}
+.ol >p{
+    color: black;
+    font-size:22px;
+    font-weight: -614;
+    margin-top: 32px;
+    margin-left: 469px;
+} 
+.hot >p{
+    color: black;
+    font-size: 30px;
+    font-weight: -614;
+    margin-top: 49px;
+    margin-left: 470px;
+}
+.vlo >p{
+    color: black;
+    font-size: 17px;
+    font-weight: -614;
+    margin-top: 57px;
+    margin-left: 469px;
+}
+.vlo1 >p{
+    color: black;
+    font-size: 17px;
+    font-weight: -614;
+    margin-top: 10px;
+    margin-left: 469px;
+}
+.thig >hr{
+    background-color: #ecefef;
+    height: 355px;
+    width: 624px;
+    font-size: 76px;
+    font-weight: -645;
+    margin-top: -65px;
+    margin-left: 455px;
+}
+.hiii >hr{
+    background-color: #ced5d5;
+    height:12px;
+    width: 626px;
+    font-size: 76px;
+    font-weight: -645;
+    margin-top: -65px;
+    margin-left: 455px;
+}
+.nyy >p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -34px;
+    margin-left: 1069px;
+}
+.nyy1 >p{
+    color: black;
+    font-size:  15px;
+    font-weight: 600;
+    margin-top: -18px;
+    margin-left: 461px;
+
+}
+.gem >p{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 75px;
+    margin-left: 466px;
+}
+.mood >p{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-left: 464px;
+}
+.mood1 >p{
+    color:#1ccacd;
+    font-size:18px;
+    font-weight:  600;
+    margin-top: -21px;
+    margin-left: 574px;;
+}
+.mood2 >p{
+    color: black;
+    font-size: 18px;
+    font-weight:600;
+    margin-top: -21px;
+    margin-left: 638px;
+}
+.mood3 >p{
+    color: black;
+    font-size:18px;
+    font-weight: 600;
+    margin-top:-20px;
+    margin-left: 722px;
+}
+.mood4 >p{
+    color: #1ccacd;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -21px;
+    margin-left: 666px;
+}
+.ddd >p{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-left: 464px;
+}
+.jjj >p{
+    color:#1ccacd;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 23px;
+    margin-left: 464px;
+}
+.nsjhs{
+    font-size: 20px;
+    margin-top: 133px;
+    margin-left: 666px;
+    color: #1ccacd;
+}   
+
+
+.nsjhs1{
+    margin-left: 786px;
+    margin-top: -28px;
+}
+
